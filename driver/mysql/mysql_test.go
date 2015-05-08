@@ -2,9 +2,9 @@ package mysql
 
 import (
 	"database/sql"
-	"github.com/mattes/migrate/file"
-	"github.com/mattes/migrate/migrate/direction"
-	pipep "github.com/mattes/migrate/pipe"
+	"github.com/didip/migrate/file"
+	"github.com/didip/migrate/migrate/direction"
+	pipep "github.com/didip/migrate/pipe"
 	"strings"
 	"testing"
 )

@@ -6,12 +6,12 @@ import (
 	"fmt"
 	neturl "net/url" // alias to allow `url string` func signature in New
 
-	"github.com/mattes/migrate/driver/bash"
-	"github.com/mattes/migrate/driver/cassandra"
-	"github.com/mattes/migrate/driver/mysql"
-	"github.com/mattes/migrate/driver/postgres"
-	"github.com/mattes/migrate/driver/sqlite3"
-	"github.com/mattes/migrate/file"
+	"github.com/didip/migrate/driver/bash"
+	"github.com/didip/migrate/driver/cassandra"
+	"github.com/didip/migrate/driver/mysql"
+	"github.com/didip/migrate/driver/postgres"
+	"github.com/didip/migrate/driver/sqlite3"
+	"github.com/didip/migrate/file"
 )
 
 // Driver is the interface type that needs to implemented by all drivers.
